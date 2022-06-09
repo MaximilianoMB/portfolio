@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react'; // transição animada entre elementos 
 import { Link } from 'react-scroll';// scroll diferenciado
+import { useRouter } from 'next/router'
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const router = useRouter()
     return(
         <div className="w-full">
             <nav className=' fixed z-20 bg-slate-50 w-full'>
@@ -33,9 +35,11 @@ function Navbar() {
                             {/* seção de contato por e-mail */}
 
                             <div className='flex justify-center items-center flex-shrink-0'>
+                                <button type="button" onClick={() => router.push('mailto:maques.mb@gmail.com')}>
                                 <h1 className='font-bold text-slate-900 text-xl cursor-pointer hidden md:block'>
-                                    Fale<span className='text-teal-700'>Comigo</span>
+                                        Fale<span className='text-teal-700'>Comigo</span>
                                 </h1>
+                                </button>
                             </div>
                         </div>
 
@@ -97,11 +101,10 @@ function Navbar() {
                     {(ref) => (
                         <div className="md:hidden" id="mobile-menu">
                             <div ref={ref} className="bg-slate-50 mx-4 mr-20 pt-4 pb-4 space-y-1">
-                                <Link href="/home" activeClass="home" to="home" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-slate-300 text-slate-900 block px-3 py-2 rounded-md text-base font-bold">Início</Link>
+                                <Link href="/homePage" activeClass="homePage" to="homePage" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-slate-300 text-slate-900 block px-3 py-2 rounded-md text-base font-bold">Início</Link>
                                 <Link href="/stack" activeClass="stack"to="stack" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-slate-300 text-slate-900 block px-3 py-2 rounded-md text-base font-bold">Stack</Link>
                                 <Link href="/projetos" activeClass="projetos" to="projetos" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-slate-300 text-slate-900 block px-3 py-2 rounded-md text-base font-bold">Projetos</Link>
                                 <Link href="/contato" activeClass="contato" to="contato" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-slate-300 text-slate-900 block px-3 py-2 rounded-md text-base font-bold">Contato</Link>
-                                <Link href="/falecom" activeClass="falecom" to="falecom" smooth={true} offset={50} duration={500} className="cursor-pointer hover:bg-slate-300 text-slate-900 block px-3 py-2 rounded-md text-base font-bold">Fale<span className="text-teal-700">Comigo</span></Link>
                             </div>
                         </div>
                     )}

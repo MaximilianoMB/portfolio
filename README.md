@@ -10,6 +10,7 @@ FrontEnd
 
 BackEnd
 
-[] - Botao Email
+[✅ ] - Botao Email
+[] - Botao download/visualização currículo
 [] - Link Projetos com Deploy
 [] - Deploy
