@@ -13,7 +13,7 @@ function stack() {
                         Minha Stack
                     </p>
                     <div className="relative">
-                        <div className="absolute filter blur-lg opacity-35 w-48 h-20 left-20 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div>
+                        {/* <div className="absolute filter blur-lg opacity-35 w-48 h-20 left-20 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div> */}
                         <h1 className="relative text-slate-400 text-6xl font-bold text-center">
                             Tecnologias
                         </h1>
@@ -49,7 +49,7 @@ function stack() {
                     </div>
                 </div>
                 <div className="relative">
-                        <div className="absolute filter blur-lg opacity-35 w-48 h-20 left-20 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div>
+                        {/* <div className="absolute filter blur-lg opacity-35 w-48 h-20 left-20 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div> */}
                         <h1 className="relative text-slate-400 text-6xl font-bold text-center">
                             Ferramentas
                         </h1>

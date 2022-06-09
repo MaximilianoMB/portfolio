@@ -8,7 +8,7 @@ function contato () {
                 <div className="w-full my-20 h-auto flex flex-col justify-center items-center">
                     <p className="text-sm uppercase text-slate-400">Contatos</p>
                     <div className="relative">
-                        <div className="absolute filter blur-lg opacity-35 w-56 h-20 left-12 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div>
+                        {/* <div className="absolute filter blur-lg opacity-35 w-56 h-20 left-12 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div> */}
                         <h1 className="relative text-slate-400 text-6xl font-bold text-center">
                             Fale Comigo!
                         </h1>
