@@ -14,7 +14,6 @@ export default function Home() {
         <meta name="description" content="portfolio maxmb" />
         <link rel="icon" href="/caneca.ico" />
       </Head>
-
       <Navbar />
       <HomePage />
       <Stack />

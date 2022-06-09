@@ -1,6 +1,7 @@
-[] - Navigation/ Header
-[] - Hero Section
-[] - Expertise
-[] - Creative Work/ projects
-[] - Contact
-[] - Footer
+[✅ ] - Nav
+[✅ ] - Hero Section
+[✅ ] - Stack
+[✅ ] - Projetos
+[✅ ] - Contato
+[✅ ] - Footer
+[ ] - Polimento Mobile
