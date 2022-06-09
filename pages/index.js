@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-slate-500">
       <Head>
         <title>Max M.B.</title>
         <meta name="description" content="portfolio maxmb" />

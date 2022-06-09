@@ -6,12 +6,17 @@ function contato () {
         <Element id="contato" name="contato">
             <div>
                 <div className="w-full my-20 h-auto flex flex-col justify-center items-center">
-                    <p className="text-sm uppercase text-gray-400">Contatos</p>
-                    <h1 className="text-indigo-900 text-6xl font-bold text-center">Fale Comigo!</h1>
+                    <p className="text-sm uppercase text-slate-400">Contatos</p>
+                    <div className="relative">
+                        <div className="absolute filter blur-lg opacity-35 w-56 h-20 left-12 bg-slate-600 rounded-full mix-blend-multiply animate-blob"></div>
+                        <h1 className="relative text-slate-400 text-6xl font-bold text-center">
+                            Fale Comigo!
+                        </h1>
+                    </div>
                 </div>
                 <div className="flex justify-center items-center mx-40 gap-10 mt-10 mb-10">
                         <button>
-                            <GoMail className="w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
+                            <GoMail className="w-10 h-10 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                         </button>    
                 </div>
             </div>
