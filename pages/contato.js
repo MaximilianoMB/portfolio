@@ -1,6 +1,6 @@
 import { Element } from 'react-scroll';
 import { GoMail } from 'react-icons/go';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 function contato () {
     const router = useRouter()
