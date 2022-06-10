@@ -65,11 +65,11 @@ function projetos(){
                         {/* botoes */}
                         <div className="sm:flex justify-self-center self-center">
                             <div>
-                                <a href="#">
+                                <a href="https://github.com/MaximilianoMB/rcg-app">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Código</div>
                             <div>
-                                <a href="#">
+                                <a href="https://rcg-ai.herokuapp.com/">
                                     <BsArrowRightSquareFill  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Acessar 
                             </div>
