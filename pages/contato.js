@@ -1,9 +1,9 @@
 import { Element } from 'react-scroll';
 import { GoMail } from 'react-icons/go';
-import { useRouter } from 'next/router';
+
 
 function contato () {
-    const router = useRouter()
+    
     return(
         <Element id="contato" name="contato">
             <div>
@@ -17,9 +17,9 @@ function contato () {
                     </div>
                 </div>
                 <div className="flex justify-center   items-center mx-40 gap-10 mt-10 mb-10"> 
-                    <button className="mb-8" type="button" onClick={() => router.push('mailto:maques.mb@gmail.com')}>
+                    <Link href="mailto:maques.mb@gmail.com">
                         <GoMail className="w-10 h-10 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>               
-                    </button>    
+                    </Link>    
                 </div>
             </div>
         </Element>
