@@ -1,5 +1,6 @@
 import { Element } from 'react-scroll';
 import { GoMail } from 'react-icons/go';
+import { Link } from 'next/link';
 
 
 function contato () {
