@@ -1,6 +1,6 @@
 import { Element } from 'react-scroll';
 import { GoMail } from 'react-icons/go';
-import { Link } from 'next/link';
+
 
 
 function contato () {
@@ -18,7 +18,7 @@ function contato () {
                     </div>
                 </div>
                 <div className="flex justify-center   items-center mx-40 gap-10 mt-10 mb-10"> 
-                    <Link href="mailto:maques.mb@gmail.com">
+                    <Link href="#">
                         <GoMail className="w-10 h-10 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>               
                     </Link>    
                 </div>
