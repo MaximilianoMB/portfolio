@@ -30,7 +30,7 @@ function projetos(){
                             alt="one" 
                             layout="responsive" 
                             objectFit="cover" 
-                            className="p-2 rounded cursor-pointer"/>
+                            className="p-2 rounded"/>
                         </div>
                         {/* Botoes */}
                         <div className="sm:flex justify-self-center self-center">
@@ -60,7 +60,7 @@ function projetos(){
                             alt="two" 
                             layout="responsive" 
                             objectFit="cover" 
-                            className="p-2 rounded cursor-pointer"/>
+                            className="p-2 rounded"/>
                         </div>
                         {/* botoes */}
                         <div className="sm:flex justify-self-center self-center">

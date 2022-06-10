@@ -28,7 +28,6 @@ function Navbar() {
                                     <Link activeClass='homePage' to='homePage' smooth={ true } offset={ 50 } duration={ 500 } className='cursor-pointer hover:text-slate-300 px-3 py-2 text-md'>Início</Link> 
                                     <Link activeClass='stack' to='stack' smooth={ true } offset={ 50 } duration={ 500 } className='cursor-pointer hover:text-slate-300 px-3 py-2 text-md'>Stack</Link>
                                     <Link activeClass='projetos' to='projetos' smooth={ true } offset={ 50 } duration={ 500 } className='cursor-pointer hover:text-slate-300 px-3 py-2 text-md'>Projetos</Link>
-                                    <Link activeClass='contato' to='contato' smooth={ true } offset={ 50 } duration={ 500 } className='cursor-pointer hover:text-slate-300 px-3 py-2 text-md'>Contato</Link>
                                 </div>
                             </div>
 
