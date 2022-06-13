@@ -4,6 +4,8 @@ import One from "../public/images/1.jpeg";
 import Two from "../public/images/2.jpeg";
 import { DiGithubBadge } from 'react-icons/di';
 import { BsArrowRightSquareFill } from 'react-icons/bs';
+import { BsThreeDotsVertical } from 'react-icons/bs';
+
 
 
 function projetos(){
@@ -22,7 +24,7 @@ function projetos(){
 
                     {/* Projeto 1 */}
 
-                <div className="grid grid-cols-6 grid-flow-row gap-2 px-3 ">
+                <div className="flex-row sm:grid sm:grid-cols-6 sm:grid-flow-row sm:mx-20 gap-2 px-3 ">
                         {/* Imagem */}
                         <div className="justify-self-center self-center col-span-2 basis-auto rounded w-full h-auto shadow-xl relative">
                             <Image 
@@ -33,7 +35,7 @@ function projetos(){
                             className="p-2 rounded"/>
                         </div>
                         {/* Botoes */}
-                        <div className="sm:flex justify-self-center self-center">
+                        <div className="flex sm:items-center gap-5 justify-center">
                             <div>
                                 <a href="#">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
@@ -45,14 +47,17 @@ function projetos(){
                             </div>
                         </div>
                         {/* Texto */}
-                        <aside className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
+                        <p className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
                             Neste projeto, utilizei Pupppeteer com NodeJS, para construir um webcrawler que retorna um JSON para o frontend, que utiliza NextJS e TailwindCss.
-                        </aside>
+                        </p>
+                        <p className="flex sm:col-span-6 justify-center">
+                        <BsThreeDotsVertical  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/> 
+                        </p>
                  </div>
 
                 {/* Projeto 2 */}
 
-                <div className="grid grid-cols-6 grid-flow-row gap-2 mt-10 px-3 ">
+                <div className="flex-row sm:grid sm:grid-cols-6 sm:grid-flow-row sm:mx-20  gap-2 mt-10 px-3 ">
                         {/* Imagem */}
                         <div className="justify-self-center self-center col-span-2 basis-auto rounded w-full h-auto shadow-xl relative">                      
                             <Image 
@@ -63,7 +68,7 @@ function projetos(){
                             className="p-2 rounded"/>
                         </div>
                         {/* botoes */}
-                        <div className="sm:flex justify-self-center self-center">
+                        <div className="flex sm:items-center gap-5 justify-center">
                             <div>
                                 <a href="https://github.com/MaximilianoMB/rcg-app">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
@@ -75,9 +80,9 @@ function projetos(){
                             </div>
                         </div>
                         {/* Texto */}
-                        <aside className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
+                        <p className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
                             Neste projeto, utilizei NodeJS e Express para o backend realizar requisições para uma API de reconhecimento facial.No frontend utilizei alguns pacotes npm e a base com React.O aplicativo tem registro e login de usuário construídos com bcrypt para gerenciar senhas e PostgreSQL para a base de dados.
-                        </aside>
+                        </p>
                 </div>
             </div>
         </Element>
