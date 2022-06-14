@@ -4,13 +4,12 @@ FrontEnd
 [✅ ] - Hero Section
 [✅ ] - Stack
 [✅ ] - Projetos
-[✅ ] - Contato
 [✅ ] - Footer
 [✅ ] - Polimento Mobile
 
 BackEnd
 
 [✅ ] - Botao Email
-[] - Botao download/visualização currículo
-[✅ ] - Link Projetos com Deploy
+[✅ ] - Botao download/visualização currículo
+[✅ ] - Link projetos em produção
 [✅ ] - Deploy

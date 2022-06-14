@@ -39,7 +39,7 @@ function homePage() {
                                 </a>    
                             </div>
                             <div className="gap-10 mt-10 mb-5">
-                                <a href="#">
+                                <a target="_blank" href="/maximiliano.pdf">
                                     <VscFilePdf className="w-10 h-10 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>    
                             </div>

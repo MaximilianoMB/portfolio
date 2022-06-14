@@ -37,18 +37,18 @@ function projetos(){
                         {/* Botoes */}
                         <div className="flex sm:items-center gap-5 justify-center">
                             <div>
-                                <a href="#">
+                                <a target="_blank" href="https://github.com/MaximilianoMB/reactApp">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Código</div>
                             <div>
-                                <a href="#">
+                                <a target="_blank" href="https://maximilianomb.github.io/reactApp/">
                                     <BsArrowRightSquareFill  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Acessar 
                             </div>
                         </div>
                         {/* Texto */}
                         <p className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
-                            Neste projeto, utilizei Pupppeteer com NodeJS, para construir um webcrawler que retorna um JSON para o frontend, que utiliza NextJS e TailwindCss.
+                            Neste projeto, utilizei React e através de um fetch à uma API manipulei o JSON retornado para o frontend.As imagens de cada card são geradas dinamicamente utilizando query search params em uma URL.Também implementei um mecanismo de busca.
                         </p>
                         <p className="flex sm:col-span-6 justify-center">
                         <BsThreeDotsVertical  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/> 
@@ -70,11 +70,11 @@ function projetos(){
                         {/* botoes */}
                         <div className="flex sm:items-center gap-5 justify-center">
                             <div>
-                                <a href="https://github.com/MaximilianoMB/rcg-app">
+                                <a target="_blank" href="https://github.com/MaximilianoMB/rcg-app">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Código</div>
                             <div>
-                                <a href="https://rcg-ai.herokuapp.com/">
+                                <a target="_blank" href="https://rcg-ai.herokuapp.com/">
                                     <BsArrowRightSquareFill  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Acessar 
                             </div>
