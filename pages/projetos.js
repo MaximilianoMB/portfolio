@@ -37,18 +37,19 @@ function projetos(){
                         {/* Botoes */}
                         <div className="flex sm:items-center gap-5 justify-center">
                             <div>
-                                <a target="_blank" href="https://github.com/MaximilianoMB/reactApp">
+                                <a target="_blank" rel="noreferrer" href="https://projeto-plataforma-lyart.vercel.app/">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Código</div>
                             <div>
-                                <a target="_blank" href="https://maximilianomb.github.io/reactApp/">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/MaximilianoMB/projeto-plataforma">
                                     <BsArrowRightSquareFill  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Acessar 
                             </div>
                         </div>
                         {/* Texto */}
                         <p className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
-                            Neste projeto, utilizei React e através de um fetch à uma API manipulei o JSON retornado para o frontend.As imagens de cada card são geradas dinamicamente utilizando query search params em uma URL.Também implementei um mecanismo de busca.
+                        Esta plataforma foi desenvolvida utilizanto Vite,no frontend React e Tailwind e utilizei tambem GraphCMS para gerenciar os conteúdos.
+                        Serve como base para eventos, cursos e afins pois possui uma área de login ou inscrição e os conteúdos de cada capítulo, aula, professor, etc... são gerenciados pelo GraphCMS.
                         </p>
                         <p className="flex sm:col-span-6 justify-center">
                         <BsThreeDotsVertical  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/> 
@@ -70,11 +71,11 @@ function projetos(){
                         {/* botoes */}
                         <div className="flex sm:items-center gap-5 justify-center">
                             <div>
-                                <a target="_blank" href="https://github.com/MaximilianoMB/rcg-app">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/MaximilianoMB/rcg-app">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Código</div>
                             <div>
-                                <a target="_blank" href="https://rcg-ai.herokuapp.com/">
+                                <a target="_blank" rel="noreferrer" href="https://rcg-ai.herokuapp.com/">
                                     <BsArrowRightSquareFill  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Acessar 
                             </div>
