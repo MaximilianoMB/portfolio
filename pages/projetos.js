@@ -37,11 +37,11 @@ function projetos(){
                         {/* Botoes */}
                         <div className="flex sm:items-center gap-5 justify-center">
                             <div>
-                                <a target="_blank" rel="noreferrer" href="https://projeto-plataforma-lyart.vercel.app/">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/MaximilianoMB/projeto-plataforma">
                                     <DiGithubBadge className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Código</div>
                             <div>
-                                <a target="_blank" rel="noreferrer" href="https://github.com/MaximilianoMB/projeto-plataforma">
+                                <a target="_blank" rel="noreferrer" href="https://projeto-plataforma-lyart.vercel.app/">
                                     <BsArrowRightSquareFill  className="w-8 h-8 bg-slate-700 text-gray-100 m-3 p-1 shadow-xl rounded-md"/>                 
                                 </a>Acessar 
                             </div>
