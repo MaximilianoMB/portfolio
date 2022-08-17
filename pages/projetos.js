@@ -48,7 +48,7 @@ function projetos(){
                         </div>
                         {/* Texto */}
                         <p className="col-span-3 mt-10 justify-center sm:self-center  text-center text-slate-900">
-                        Esta plataforma foi desenvolvida utilizanto Vite,no frontend React e Tailwind e utilizei tambem GraphCMS para gerenciar os conteúdos.
+                        Esta plataforma foi desenvolvida utilizanto Vite,no frontend React e Tailwind e utilizei também GraphCMS para gerenciar os conteúdos.
                         Serve como base para eventos, cursos e afins pois possui uma área de login ou inscrição e os conteúdos de cada capítulo, aula, professor, etc... são gerenciados pelo GraphCMS.
                         </p>
                         <p className="flex sm:col-span-6 justify-center">
